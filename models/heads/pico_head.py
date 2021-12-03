@@ -2,9 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from models.modules.layers import ConvNormLayer
-
-
 
 class PicoFeat(nn.Module):
     """
